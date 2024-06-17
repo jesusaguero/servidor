@@ -1,7 +1,7 @@
 // Rutas para producto
 const express = require('express');
 const router = express.Router();
-const productocontroller = require('..controllers/productocontroller');
+const productoController = require('../controllers/ProductoController');
 
 router.post('/', productoController.crearProducto);
 router.get('/', productoController.obtenerProducto);
